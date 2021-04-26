@@ -83,7 +83,7 @@ public class BrowserExtensionTest extends TestBase  {
 
     @Test
     @DisplayName("Extended Css rules test")
-    void scriptletTest() throws Exception {
+    void extendedsccrulesTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
@@ -102,7 +102,7 @@ public class BrowserExtensionTest extends TestBase  {
     }
     @Test
     @DisplayName("Extended CSS rules injection into iframe created with js test")
-    void scriptletTest() throws Exception {
+    void extendedcssrulesinjTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
@@ -121,8 +121,8 @@ public class BrowserExtensionTest extends TestBase  {
     }
 
     @Test
-    @DisplayName("Extended CSS rules injection into iframe created with js test")
-    void scriptletTest() throws Exception {
+    @DisplayName("Important rules test")
+    void importantrulesTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
@@ -141,8 +141,8 @@ public class BrowserExtensionTest extends TestBase  {
     }
 
     @Test
-    @DisplayName("Extended CSS rules injection into iframe created with js test")
-    void scriptletTest() throws Exception {
+    @DisplayName("Important rules vs urlblock exception test")
+    void importantvsurlblockTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
@@ -161,8 +161,8 @@ public class BrowserExtensionTest extends TestBase  {
     }
 
     @Test
-    @DisplayName("Extended CSS rules injection into iframe created with js test")
-    void scriptletTest() throws Exception {
+    @DisplayName("CSP rules test")
+    void csprulesTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
@@ -181,8 +181,8 @@ public class BrowserExtensionTest extends TestBase  {
     }
 
     @Test
-    @DisplayName("Extended CSS rules injection into iframe created with js test")
-    void scriptletTest() throws Exception {
+    @DisplayName("CSP exception rules test")
+    void cspexceptionrulesTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
@@ -201,8 +201,8 @@ public class BrowserExtensionTest extends TestBase  {
     }
 
     @Test
-    @DisplayName("Extended CSS rules injection into iframe created with js test")
-    void scriptletTest() throws Exception {
+    @DisplayName("Websocket blocking rules test")
+    void websocketblockingrulesTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
@@ -221,8 +221,8 @@ public class BrowserExtensionTest extends TestBase  {
     }
 
     @Test
-    @DisplayName("Extended CSS rules injection into iframe created with js test")
-    void scriptletTest() throws Exception {
+    @DisplayName("Script rules test")
+    void scriptrulesTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
@@ -241,8 +241,8 @@ public class BrowserExtensionTest extends TestBase  {
     }
 
     @Test
-    @DisplayName("Extended CSS rules injection into iframe created with js test")
-    void scriptletTest() throws Exception {
+    @DisplayName("Badfilter rules test")
+    void badfilterrulesTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
@@ -261,8 +261,8 @@ public class BrowserExtensionTest extends TestBase  {
     }
 
     @Test
-    @DisplayName("Extended CSS rules injection into iframe created with js test")
-    void scriptletTest() throws Exception {
+    @DisplayName("Redirect rules test")
+    void redirectrulesTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
@@ -281,8 +281,8 @@ public class BrowserExtensionTest extends TestBase  {
     }
 
     @Test
-    @DisplayName("Extended CSS rules injection into iframe created with js test")
-    void scriptletTest() throws Exception {
+    @DisplayName("Redirect resources security test")
+    void redirectresourcessecurityTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
@@ -301,8 +301,8 @@ public class BrowserExtensionTest extends TestBase  {
     }
 
     @Test
-    @DisplayName("Extended CSS rules injection into iframe created with js test")
-    void scriptletTest() throws Exception {
+    @DisplayName("Jsinject rules test")
+    void jsinjectrulesTest() throws Exception {
 
         settingsPage.openExtensionSettingsPage();
         switchTo().window(0);
