@@ -80,4 +80,244 @@ public class BrowserExtensionTest extends TestBase  {
         settingsPage.checkQUnit();
         settingsPage.testsPassed();
     }
+
+    @Test
+    @DisplayName("Extended Css rules test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.EXTENDED_CSS_RULES_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.EXTENDED_CSS_RULES_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+    @Test
+    @DisplayName("Extended CSS rules injection into iframe created with js test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.EXTENDED_CSS_RULES_INJECTION_INTO_IFRAME_CREATED_WITH_JS_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.EXTENDED_CSS_RULES_INJECTION_INTO_IFRAME_CREATED_WITH_JS_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+
+    @Test
+    @DisplayName("Extended CSS rules injection into iframe created with js test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.$IMPORTANT_RULES_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.$IMPORTANT_RULES_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+
+    @Test
+    @DisplayName("Extended CSS rules injection into iframe created with js test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.$IMPORTANT_RULES_VS_$URLBLOCK_EXCEPTION_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.$IMPORTANT_RULES_VS_$URLBLOCK_EXCEPTION_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+
+    @Test
+    @DisplayName("Extended CSS rules injection into iframe created with js test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.$CSP_RULES_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.$CSP_RULES_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+
+    @Test
+    @DisplayName("Extended CSS rules injection into iframe created with js test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.$CSP_EXCEPTION_RULES_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.$CSP_EXCEPTION_RULES_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+
+    @Test
+    @DisplayName("Extended CSS rules injection into iframe created with js test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.$WEBSOCKET_BLOCKING_RULES_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.$WEBSOCKET_BLOCKING_RULES_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+
+    @Test
+    @DisplayName("Extended CSS rules injection into iframe created with js test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.SCRIPT_RULES_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.SCRIPT_RULES_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+
+    @Test
+    @DisplayName("Extended CSS rules injection into iframe created with js test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.$BADFILTER_RULES_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.$BADFILTER_RULES_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+
+    @Test
+    @DisplayName("Extended CSS rules injection into iframe created with js test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.$REDIRECT_RULES_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.$REDIRECT_RULES_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+
+    @Test
+    @DisplayName("Extended CSS rules injection into iframe created with js test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.$REDIRECT_RESOURCES_SECURITY_TEST_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.$REDIRECT_RESOURCES_SECURITY_TEST_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+
+    @Test
+    @DisplayName("Extended CSS rules injection into iframe created with js test")
+    void scriptletTest() throws Exception {
+
+        settingsPage.openExtensionSettingsPage();
+        switchTo().window(0);
+        settingsPage.disableAllFiltersGroup();
+        settingsPage.enableCustomFiltersGroup();
+        settingsPage.addCustomFilter(Constant.$JSINJECT_RULES_TXT);
+        sleep(2000);
+        // закрываем welcome page чтобы не мешалась
+        settingsPage.closeWelcomePage();
+
+        open(Constant.$JSINJECT_RULES_HTML);
+
+        // проверяем что тесты пройдены
+        settingsPage.checkQUnit();
+        settingsPage.testsPassed();
+    }
+
 }
