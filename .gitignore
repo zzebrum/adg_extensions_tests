@@ -1,0 +1,9 @@
+.idea/
+*.crx
+*.pem
+build/
+.gradle/
+chrome/
+.DS_Store
+.allure/
+gradle
